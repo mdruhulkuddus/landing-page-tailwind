@@ -9,7 +9,7 @@
    "build": "npx tailwindcss -i ./css/input.css -o ./dist/styles.css --minify",
     "deploy": "npm run build && gh-pages -d dist"
   },
-  "homepage": "https://mdruhulkuddus.github.io/landing-page-tailwind",
+  "homepage": "https://mdruhulkuddus.github.io/landing-page-tailwind/",
   "keywords": [],
   "author": "",
   "license": "ISC",
