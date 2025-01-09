@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx tailwindcss -i ./css/input.css -o ./css/styles.css --watch"
+    "dev": "npx tailwindcss -i ./css/input.css -o ./css/styles.css --watch",
+   "build": "npx tailwindcss -i ./css/input.css -o ./dist/styles.css --minify",
+    "deploy": "npm run build && gh-pages -d dist"
   },
+  "homepage": "https://mdruhulkuddus.github.io/landing-page-tailwind",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17"
   }
