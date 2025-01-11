@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "deploy": "npm run build && gh-pages -d dist"
+    "build" : "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "homepage": "https://mdruhulkuddus.github.io/landing-page-tailwind",
   "keywords": [],
