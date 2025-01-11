@@ -1,4 +1,5 @@
 {
+  "homepage": "https://mdruhulkuddus.github.io/landing-page-tailwind",
   "name": "landing-tailwind-ostad",
   "version": "1.0.0",
   "description": "",
@@ -9,7 +10,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://mdruhulkuddus.github.io/landing-page-tailwind",
   "keywords": [],
   "author": "",
   "license": "ISC",
